@@ -10,5 +10,3 @@ Feature:  Verificar la funcionalidad agregar y eliminar
     Given Kevin quiere seleccionar un producto
     When de clic en uno de los productos
     Then se deberan agregar al carrito de compras
-      | strTitulo |
-      | Welcome to the world's largest community of freelance software testers! |

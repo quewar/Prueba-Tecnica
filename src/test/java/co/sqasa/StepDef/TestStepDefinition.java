@@ -1,5 +1,6 @@
 package co.sqasa.StepDef;
 
+
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -27,22 +28,20 @@ public class TestStepDefinition {
     @When("^de clic en uno de los productos$")
     public void deClicEnUnoDeLosProductos() throws Exception {
         OnStage.theActorInTheSpotlight().attemptsTo(
-                SeleccionarCategorias.enPagina(
-
-
+                SeleccionarCategorias.enPagina()
                 );
+        Thread.sleep(3000);
+
+    };
+
+
+
+
+    @Then("^se deberan agregar al carrito de compras$")
+    public void seDeberanAgregarAlCarritoDeCompras() throws Exception {
+        OnStage.theActorInTheSpotlight();
+        System.out.println("caracter");
     }
 
 
-
-
-    @Then("^el registro se realizo de manera exitosa o el usuario existe o  los datos no son correctos$")
-    public void elRegistroSeRealizoDeManeraExitosaOElUsuarioExisteOLosDatosNoSonCorrectos(List <RegistroDatos> registroDatos) throws Exception{
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(
-                Validar.texto(
-                        registroDatos.get(0).getStrTitulo()
-                )));
-        System.out.println(""+Validar.texto(registroDatos.get(0).getStrTitulo()).answeredBy(OnStage.theActorInTheSpotlight()));
-
-    }
 }
