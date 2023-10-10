@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Verificar la funcionalidad agregar y eliminar" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-10T22:58:53" hostname="MPC-4G7D" time="35.302">
+<testsuite name="Verificar la funcionalidad agregar y eliminar" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-10T23:20:18" hostname="MPC-4G7D" time="115.133">
   <properties/>
-  <testcase name="Seleccionar dos productos de la categoria amor para agregarlos al carro de compras" classname="Verificar la funcionalidad agregar y eliminar" time="35.302"/>
+  <testcase name="Seleccionar dos productos de la categoria amor para agregarlos al carro de compras" classname="Verificar la funcionalidad agregar y eliminar" time="72.045"/>
+  <testcase name="Seleccionar un producto de la categoria cumpleaños, agregarlo y eliminarlo del carro de compras" classname="Verificar la funcionalidad agregar y eliminar" time="43.068"/>
   <system-out><![CDATA[caracter
+caracter
 ]]></system-out>
-  <system-err><![CDATA[oct. 10, 2023 5:58:55 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[oct. 10, 2023 6:20:20 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 117.0.5938.149 (e3344ddefa12e60436fa28c81cf207c1afb4d0a9-refs/branch-heads/5938@{#1539}) on port 44344
+Starting ChromeDriver 117.0.5938.149 (e3344ddefa12e60436fa28c81cf207c1afb4d0a9-refs/branch-heads/5938@{#1539}) on port 23159
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-oct. 10, 2023 5:58:58 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+oct. 10, 2023 6:20:23 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -23,6 +25,26 @@ INFORMACIÓN: Detected dialect: W3C
         /_/                                                                
 
 TEST PASSED: Seleccionar dos productos de la categoria amor para agregarlos al carro de compras
+----------------------------------------------------------------------------
+oct. 10, 2023 6:21:30 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 117.0.5938.149 (e3344ddefa12e60436fa28c81cf207c1afb4d0a9-refs/branch-heads/5938@{#1539}) on port 13972
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+oct. 10, 2023 6:21:32 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Seleccionar un producto de la categoria cumpleaños, agregarlo y eliminarlo del carro de compras
 ----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
